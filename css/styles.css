@@ -2,6 +2,7 @@ body {
   background-color: lightblue;
 }
 
+/* Mobile Device */
 @media screen and (max-width: 767px) {
   body {
     background-color: purple;
@@ -48,6 +49,7 @@ body {
   }
 }
 
+/* Tablet Device */
 @media screen and (min-width: 768px) and (max-width:991px) {
   body {
     background-color: blue;
@@ -94,6 +96,7 @@ body {
   }
 }
 
+/* Desktop Device */
 @media screen and (min-width: 992px) {
   body {
     background-color: red;
